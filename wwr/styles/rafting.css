@@ -96,43 +96,48 @@ article img{
     left: 90px;
 }
 
-.header {
+/* Nav menu */
+
+header {
     display: grid;
-    grid-template-columns: auto 1fr; /* first column auto to fit the logo, second column 1fr to take up the remaining space */
-    align-items: center; /* vertically center the content */
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
   }
+
+nav {
+    text-align: right;
+}
+
+.header a {
+    flex: 100%;
+}
   
-  
-  .nav-menu {
-    text-align: right; /* align the menu items to the right */
-  }
-  
-  .nav-menu ul {
+.nav-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .nav-menu li {
+.nav-menu li {
     display: inline-block;
     margin-right: 20px;
   }
   
-  .nav-menu li:last-child {
-    margin-right: 0; /* remove margin from the last menu item */
+.nav-menu li:last-child {
+    margin-right: 0; 
   }
   
-  .nav-menu a {
+.nav-menu a {
     color: #000;
     text-decoration: none;
-  }
-  
+  } 
+
+  /* History section grid */
+
   .history {
     display: grid;
     text-align: center;
   }
-
-  /* History section grid */
 
   .history {
     display: grid;
@@ -179,17 +184,17 @@ article img{
 
 /* Figure styles */
 
-
-.figure {
+figure {
     border: thin #c0c0c0 solid;
-    display: grid;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    flex-flow: row;
+    display: inline-block; /* Display as an inline block */
+    flex-direction: row; /* Set the flex direction to row */
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
     padding: 5px;
     max-width: 220px;
     margin: auto;
-    align-items: center;
-}
+  }
+  
 
 .figure img {
     max-width: 220px;
@@ -200,7 +205,37 @@ article img{
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
-    padding: 3px;
+    padding: 10px;
     text-align: center;
 }
 
+/* footer nav */
+
+footer {
+    background-color: #023047;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.sociallinks p {
+    color: white;
+    position: absolute;
+    float: left;
+    left: 380px;
+}
+
+  .sociallinks{
+    display: flex;
+    align-items: center;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+  }
+  
+  .sociallinks img {
+    width: 30px;
+    height: 30px;
+  }
+  
