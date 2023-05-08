@@ -78,8 +78,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 10px;
-    left: 150 px;
+    top: 20px;
+    left: 120px;
 }
 
 header, .grid, footer {
