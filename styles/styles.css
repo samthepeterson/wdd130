@@ -40,14 +40,14 @@ p {
     padding: 0;
 }
 
-/*aside {
+aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
-}*/
+}
 
 aside img {
     width: 200px;
@@ -70,11 +70,11 @@ footer {
     color: #000;
 }
 
-/*aside {
+aside {
     width: 20em;
     text-align: center;
     position: relative;
-}  */
+}  
 
 aside h2 {
     position: absolute;
