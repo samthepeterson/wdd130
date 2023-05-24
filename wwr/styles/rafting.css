@@ -366,3 +366,15 @@ h2 {
 p {
   color: #666;
 }
+
+/* home page hero image */
+
+.home p{
+  position: absolute;
+  top: 280px;
+  color: white;
+  padding: 20px;
+  width: 600px;
+  left: 280px;
+  text-align: center;
+}
